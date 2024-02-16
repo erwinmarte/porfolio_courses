@@ -15,7 +15,7 @@ async function logGenerator(req, res, next) {
         if (logged) return;
 
         const logEntry = {
-            request: "On courses website erwin"
+            request: "On courses website erwin",
             method: req.method,
             timestamp: new Date(),
             processingTime: `${Date.now() - requestStart} ms`,
